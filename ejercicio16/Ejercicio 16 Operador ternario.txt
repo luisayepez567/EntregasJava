@@ -1,0 +1,20 @@
+Ejercicio 16: Operador ternario 
+Ejercicio 1:
+if (edad >= 18) {
+    estado = "mayor de edad";
+} else {
+    estado = "menor de edad";
+}
+con operador Ternario:
+estado = edad >= 18 ? "mayor de edad" : "menor de edad";
+
+Ejercicio 2:
+if (numero > 0) {
+    resultado = "positivo";
+} else if (numero < 0) {
+    resultado = "negativo";
+} else {
+    resultado = "cero";
+}
+Con operador ternario:
+resultado = numero > 0 ? "positivo" : (numero < 0 ? "negativo" : "cero");
